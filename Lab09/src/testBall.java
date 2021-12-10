@@ -15,7 +15,7 @@ public class testBall {
 		System.out.println(ball2.toString());
 		System.out.println("Total X = " + ball1.getTotDistXAllBalls());
 		System.out.println("Total Y = " + ball1.getTotDistYAllBalls());
-		
+
 	}
 
 }

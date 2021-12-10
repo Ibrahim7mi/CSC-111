@@ -2,9 +2,9 @@
 public class testSpecies {
 
 	public static void main(String[] args) {
-		
+
 		Species ArabianOryx = new Species("Arabian Oryx", 1000, 0.25);
-		
+
 		Species X = new Species();
 		X.readInput();
 		while (X.equals(ArabianOryx)) {
@@ -18,20 +18,19 @@ public class testSpecies {
 		if (X.isPopulationLargerThan(ArabianOryx)) {
 			System.out.println(X.getName() + " population is already larger than " + ArabianOryx.getName());
 			System.exit(0);
-		}
-		else {
-			if(X.getGrowthRate() <= ArabianOryx.getGrowthRate()) {
+		} else {
+			if (X.getGrowthRate() <= ArabianOryx.getGrowthRate()) {
 				System.out.println(X.getName() + " will never surpass " + ArabianOryx.getName() + " population.");
 				System.exit(0);
-			}
-			else {
+			} else {
 				int years = 1;
 				while (X.predictPopulation(years) < ArabianOryx.predictPopulation(years))
 					years++;
-				
-				System.out.println("After " + years + " years, population of " + X.getName() + " will surpass that of " + ArabianOryx.getName() + ".");
+
+				System.out.println("After " + years + " years, population of " + X.getName() + " will surpass that of "
+						+ ArabianOryx.getName() + ".");
 			}
-				
+
 		}
 	}
 }
