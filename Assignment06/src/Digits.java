@@ -6,13 +6,6 @@ public class Digits {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a number (-1 to end): ");
 		int number = input.nextInt();
-		
-		while(number != -1) {
-			int i=1;
-			
-			while(number>0) {
-				int num = number%10;
-				System.out.println("Digit"+ i++ +" = "+ num);
 
 		while (number != -1) {
 			int i = 1;
