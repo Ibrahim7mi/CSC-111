@@ -20,6 +20,6 @@ public class Digits {
 			number = input.nextInt();
 		}
 
-	}//shado  
+	} 
 
 }
