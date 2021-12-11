@@ -8,7 +8,7 @@ public class Book {
 	}
 
 	public boolean verifyISBN(int ISBN) {
-		int n1, n2, n3, n4, z; 
+		int n1, n2, n3, n4, z;
 		n4 = ISBN % 10;
 		n3 = (ISBN / 10) % 10;
 		n2 = (ISBN / 100) % 10;
