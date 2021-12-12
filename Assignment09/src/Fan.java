@@ -38,7 +38,7 @@ public class Fan {
 			speed = SLOW;
 
 	}
-
+ //f
 	public void changeSpeed(int speed) {
 		if (speed >= 1 && 3 <= speed) {
 			switch (speed) {
