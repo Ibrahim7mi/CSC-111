@@ -50,7 +50,7 @@ public class TestBank {
 		
 		case 5 :
 			System.out.println("Enter from name,to bank, to name, and amount: ");
-			if(b1.transferToBank(input.next(),input.0.next(),input.next(),input.nextDouble()))
+			if(b1.transferToBank(input.next(),input.next(),input.next(),input.nextDouble()))
 				System.out.println("DONE");
 			else 
 				System.out.println("ERROR");
