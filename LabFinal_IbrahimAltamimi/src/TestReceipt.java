@@ -1,4 +1,5 @@
-// Ibrahim Altamimi
+
+// Ibrahim Altamimi 
 // 442102395
 // Section 10:00am - 11:50am
 import java.util.Scanner;
@@ -21,7 +22,6 @@ public class TestReceipt {
 					+ "4) exit ==> to end this program ");
 			System.out.println("**********************************************************************");
 			System.out.print("Enter your option :>");
-			
 
 			switch (input.next().toLowerCase()) {
 			case "add":
@@ -35,10 +35,10 @@ public class TestReceipt {
 				break;
 			case "find":
 				System.out.print("Please enter the item name: ");
-				if(r1.findItemByName(input.next()) == -1)
+				if (r1.findItemByName(input.next()) == -1)
 					System.out.println("Item was not found.");
-				else r1.findItemByName(input.next());
-				
+				else
+					r1.findItemByName(input.next());
 
 				break;
 			case "exit":

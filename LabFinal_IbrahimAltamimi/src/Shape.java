@@ -1,4 +1,4 @@
-// Ibrahim Altamimi
+// Ib
 // 442102395
 // Section 10:00am - 11:50am
 
